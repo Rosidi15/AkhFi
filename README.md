@@ -29,22 +29,21 @@ Bergabunglah dengan grup komunitas kami yang dinamis untuk terhubung dengan peng
 
 - Integrasi mikrotik
 - Jeda kedaluwarsa
-- Generasi tanpa kode
-- Sistem penyalahgunaan Anti Coinslot
+- Koneksi KOde Otomatis
 - Layar LCD
-- Pembuatan kode di vendo menggunakan LCD tanpa memerlukan perangkat
-- Sistem multi penjual
+- Pembuatan kode di Portal menggunakan LCD
+- Sistem Multi Penjual
 
 ### Sistem Admin
 
-- Pengaturan awal sistem
-- Setting koneksi mikrotik, setting SSID, setting coinlot
-- Konfigurasi Tarif Promo (Tarif, masa berlaku)
-- Dasbor, Laporan penjualan
-- Konfigurasi pin khusus
-- konfigurasi sistem penyalahgunaan coinlot
+- Pengaturan Awal Sistem
+- Setting Koneksi Mikrotik, Setting SSID, Setting KoinSlot
+- Konfigurasi Daftar Harga (Tarif, masa berlaku)
+- Dasbor, Laporan Penjualan
+- Konfigurasi Pin Khusus Untuk Login Admin
+- konfigurasi sistem Penyalahgunaan KoinSlot
 
-## Persyaratan
+## Bahan-Bahan Yang Dibutuhkan
 
 1.) NodeMCU(ESP8266) untuk nirkabel/lan atau NodeMCU(ESP32) untuk nirkabel/lan
 
@@ -100,8 +99,8 @@ Berikut petunjuk untuk mem-flash ESP8622 menggunakan custom pyflasher. Ikuti lan
 
 Unduh file flashing ESP8622 yang diperlukan untuk pengaturan Anda:
 
-- [**Folder Berbasis Nirkabel ESP8622 **](Berbasis Nirkabel.rar) - Untuk pengaturan nirkabel.
-- [**Folder Berbasis Lan ESP8622**](ESP8622 Berbasis Lan.rar) - Untuk pengaturan berbasis LAN.
+- [**Folder Berbasis Nirkabel ESP8622 **]([Berbasis Nirkabel.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Nirkabel.rar)) - Untuk pengaturan nirkabel.
+- [**Folder Berbasis Lan ESP8622 **]([Berbasis Lan.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Lan.rar)) - Untuk pengaturan berbasis LAN.
 
 ## Step 2: Buka NodeMCU-PyFlasher
 
