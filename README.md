@@ -254,7 +254,7 @@ Execute on mikrotik terminal
 
 ```bash
 /ip hotspot walled-garden ip add action=accept disabled=no dst-address-list=AkhfiPortal
-/ip firewall filter add action=accept chain=input place-before=0 comment=JuanfiVendo src-address-list=AkhfiPortal
+/ip firewall filter add action=accept chain=input place-before=0 comment=AkhfiVendo src-address-list=AkhfiPortal
 ```
 
 ## 3. Make NodeMCU IP Address Static
