@@ -459,21 +459,6 @@ Sample Script that run at 3am:
   /system scheduler add interval=1d name="Restart Vendo" on-event="/tool fetch http-method=post http-header-field=\"X-TOKEN: 38vz2rb6nk\" url=\"http://10.10.10.251/admin/api/restartSystem\"" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=Sep/28/2021 start-time=03:00:00;
 ```
 
-### **Night Light schedulers**
-
-Sample Script that turn on nightlight at 6 pm:
-
-```bash
- /system scheduler add interval=1d name="Turn ON Night Light" on-event="/tool fetch http-method=post http-header-field=\"X-TOKEN: 38vz2rb6nk\" url=\"http://10.10.10.251/admin/api/toggerNightLight\?toggle=1\"" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=Sep/28/2021 start-time=18:00:00;
-```
-
-### **Sample Script that turn off nightlight at 6 am:**
-
-```bash
- /system scheduler add interval=1d name="Turn OFF Night Light" on-event="/tool fetch http-method=post http-header-field=\"X-TOKEN: 38vz2rb6nk\" url=\"http://10.10.10.251/admin/api/toggerNightLight\?toggle=0\"" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=Sep/28/2021 start-time=06:00:00;
-```
-
-
 # **Mikrotik Hotspot Portal**
 
 ![alt text](/docs/Mikrotik-hotspot.PNG?raw=true)
@@ -482,11 +467,6 @@ Sample Script that turn on nightlight at 6 pm:
 
 ![alt text](/docs/JuanFi-Step05.PNG?raw=true)
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 
