@@ -489,4 +489,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Untuk Pembelian Lisensi Bisa Hubungi Kami](https://wa.link/8ksewt)
