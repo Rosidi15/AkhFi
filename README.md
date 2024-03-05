@@ -310,9 +310,9 @@ Put on the on login script (with telegram support) please change accordingly wit
 ### enable Random MAC synchronizer
 :local isRandomMacSyncFix 0;
 
-### enable JuanFi online monitoring 0 = DoNotSend,  1=send data to api
+### enable AkhFi online monitoring 0 = DoNotSend,  1=send data to api
 :local apiSend 0;
-### derive from the JuanFi online monitoring, create account in genman.projectdorsu.com
+### derive from the AkhFi online monitoring, create account in genman.projectdorsu.com
 :local URLvendoID 5;
 
 # Get User Data
