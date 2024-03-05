@@ -7,7 +7,7 @@ Wifi Koin AkhFi adalah sistem sumber terbuka inovatif yang dirancang untuk integ
 
 ## **Donasi**
 
-Kami sangat menghargai donasi karena membantu mendukung pengembangan dan pemeliharaan JuanFi. Jika Anda ingin berkontribusi dan menunjukkan dukungan Anda, Anda dapat memberikan donasi dengan cara berikut: ``
+Kami sangat menghargai donasi karena membantu mendukung pengembangan dan pemeliharaan AkhFi. Jika Anda ingin berkontribusi dan menunjukkan dukungan Anda, Anda dapat memberikan donasi dengan cara berikut: ``
 
 - Akun Gcash/Dana : Ahyar Rosiidi - 085934241038
 
