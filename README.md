@@ -118,10 +118,10 @@ Unduh file flashing ESP8622 yang diperlukan untuk pengaturan Anda:
 
 ## Step 4: Mem-Flash AkhFi-FlashFile2.bin
 
-1. In the PyFlasher interface:
-   - Select the file `AkhFi-FlashFile2.bin`.
-   - Set the offset to `0x200000`.
-   - Click the `Flash Nodemcu` button and wait for the flashing process to complete.
+1. Di antarmuka PyFlasher:
+   - Pilih File AkhFi-FlashFile2.bin`.
+   - Pastikanoffset diatur ke `0x200000`.
+   - Klik `Flash Nodemcu` tombol tersebut dan tunggu hingga proses flashing selesai.
 
 ![Flash File 2](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-FlashFile2.PNG?raw=true)
 
@@ -221,17 +221,18 @@ Gunakan username&pasword Bawaan dibawah ini:
 
 ## 8. Konfigurasi Sistem
 
-Isi Vendo Name dengan Nama Portal Anda Contoh :"Portal Sabrina", Kemudian Scan Nama SSID Wifi Anda,pasword dikosongkan, Kemudian Mode Pilih DHCP (jika Berbasis Nirkabel) Pilih Statik (Jika Berbasis Lan), Kemudian isi Ip mikrotik Sesuai dengan Ip Mikrotik Anda begitu juga dengan username dan paswordnya.
+Isi Vendo Name dengan Nama Portal Anda Contoh :"Portal Sabrina", Kemudian Scan Nama SSID Wifi Anda,pasword dikosongkan, Kemudian Mode Pilih DHCP / Statik, Kemudian isi Ip mikrotik Sesuai dengan Ip Mikrotik Anda begitu juga dengan username dan paswordnya, kemudian pilih simpan. maka NodemCusudah terhubung dengan mikrotik,, lanjutkan ke pengaturan berikutnya.
 
 > **Note:** Change the password of the **operator** account to prevent unauthorized access to the vendo.
 
 ![Configure System](/docs/JuanFi-Step03.PNG)
 
-### Configure Promo Rates
+### Konfigurasi Daftar Harga
+
 
 ![Configure Promo Rates](/docs/JuanFi-Step04.PNG)
 
-> # Mikrotik Setup
+> # Pengaturan Mikrotik
 
 ## 1. Setup Mikrotik Hotspot
 
@@ -252,8 +253,8 @@ Execute on mikrotik terminal
 ```
 
 ```bash
-/ip hotspot walled-garden ip add action=accept disabled=no dst-address-list=JuanfiVendo
-/ip firewall filter add action=accept chain=input place-before=0 comment=JuanfiVendo src-address-list=JuanfiVendo
+/ip hotspot walled-garden ip add action=accept disabled=no dst-address-list=AkhfiPortal
+/ip firewall filter add action=accept chain=input place-before=0 comment=JuanfiVendo src-address-list=AkhfiPortal
 ```
 
 ## 3. Make NodeMCU IP Address Static
