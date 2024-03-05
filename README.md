@@ -116,7 +116,7 @@ Unduh file flashing ESP8622 yang diperlukan untuk pengaturan Anda:
 
 ![Flash File 1](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-FlashFile1.PNG?raw=true)
 
-## Step 4: Flashing AkhFi-FlashFile2.bin
+## Step 4: Mem-Flash AkhFi-FlashFile2.bin
 
 1. In the PyFlasher interface:
    - Select the file `AkhFi-FlashFile2.bin`.
@@ -166,7 +166,7 @@ Unduh file flashing ESP32 yang diperlukan untuk pengaturan Anda:
 3. Pesan penghubung akan muncul, menunjukkan alat tersebut mencoba terhubung ke ESP32.
 ![Connecting](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile4.PNG?raw=true)
 
-## Step 4: Mulai Flashing
+## Step 4: Mulai Flash
 
 1. Tekan dan tahan tombol flash pada ESP32 selama 3-5 detik.
 2.Proses flashing akan dimulai.
@@ -179,7 +179,7 @@ Tunggu hingga proses flashing selesai.
 
 ## Step 6: Selesai
 
-Setelah mem-flash kedua file, ESP32 Anda sekarang siap. Mulai ulang NodeMCU untuk memulai pengaturan.
+Setelah proses flashing selesai, Anda dapat memutuskan sambungan ESP32 dari PC Anda. Perangkat sekarang siap untuk Pengaturan.
 
 Selamat! Anda telah berhasil mem-flash perangkat ESP32 dan siap untuk melanjutkan dengan Pengaturan AkhFi SetUp.
 
@@ -188,40 +188,40 @@ Selamat! Anda telah berhasil mem-flash perangkat ESP32 dan siap untuk melanjutka
 
 <br>
 
-> # Setting up the Vendo
+> # Seting Portal
 
-## 1. Connect to JuanFi Setup
+## 1. Hubungkan ke AkhFi Setup
 
-### For Esp32/Esp8622 Wireless Based
+### Untuk Yang Berbasis Nirkabel Esp32/Esp8622
 
-1. Look for the **"JuanFi Setup"** SSID on your device.
-2. connect to the SSID
-3. Access the admin panel in your browser at [http://172.217.28.1/login](http://172.217.28.1/login).
+1. Cari SSID "AkhFi Setup" di perangkat Anda.
+2. Hubungkan ke SSID
+3. Akses panel admin di browser Anda di http://172.217.28.1/login .
 
 ![Wireless Setup](/docs/JuanFi-Step01.PNG)
 
-### For Esp32/Esp8622 LanBase
+### Untuk Berbasis Lan Esp32/Esp8622
 
-1. Plug your vendo into your PC/Laptop's ethernet port.
-2. Set your PC/Laptop's IP address as static to **172.217.28.10**:
+1. Hubungkan Portal Anda ke port ethernet PC/Laptop Anda.
+2. Tetapkan alamat IP PC/Laptop Anda sebagai statis ke 172.217.28.10 :
    - IP address: 172.217.28.10
    - Subnet Mask: 255.255.255.0
    - Gateway: 172.217.28.10
    - DNS: 172.217.28.10
-3. Access the admin panel in your browser at [http://172.217.28.1/login](http://172.217.28.1/login).
+3.Akses panel admin di browser Anda di http://172.217.28.1/login .
 
-## 2. Login to Admin Panel
+## 2. Masuk Ke Panel Admin
 
-Use the following default credentials:
+Gunakan username&pasword Bawaan dibawah ini:
 
 - Username: admin
 - Password: admin
 
 ![Admin Panel Login](/docs/JuanFi-Step02.PNG)
 
-## 8. Configure System
+## 8. Konfigurasi Sistem
 
-Configure the necessary fields according to your preferences, or upload a custom configuration file. The system will restart to apply the changes. The default Mikrotik API username and password are **pisonet** and **abc123**.
+Isi Vendo Name dengan Nama Portal Anda Contoh :"Portal Sabrina", Kemudian Scan Nama SSID Wifi Anda,pasword dikosongkan, Kemudian Mode Pilih DHCP (jika Berbasis Nirkabel) Pilih Statik (Jika Berbasis Lan), Kemudian isi Ip mikrotik Sesuai dengan Ip Mikrotik Anda begitu juga dengan username dan paswordnya.
 
 > **Note:** Change the password of the **operator** account to prevent unauthorized access to the vendo.
 
