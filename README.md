@@ -25,13 +25,13 @@ Bergabunglah dengan grup komunitas kami yang dinamis untuk terhubung dengan peng
 - Berbasis nirkabel
 - Berbasis Lan
 
-### Sistem Slot Koin
+### Sistem Wifi Koin AkhFi
 
-- Integrasi mikrotik
-- Jeda kedaluwarsa
+- Berbasis Mikrotik
+- Print Kode Vocer Otomatis
 - Koneksi KOde Otomatis
 - Layar LCD
-- Pembuatan kode di Portal menggunakan LCD
+- Pembuatan kode di Portal menggunakan LCD, Printer TTL
 - Sistem Multi Penjual
 
 ### Sistem Admin
@@ -116,10 +116,10 @@ Unduh file flashing ESP8622 yang diperlukan untuk pengaturan Anda:
 
 ![Flash File 1](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-FlashFile1.PNG?raw=true)
 
-## Step 4: Flashing JuanFi-FlashFile2.bin
+## Step 4: Flashing AkhFi-FlashFile2.bin
 
 1. In the PyFlasher interface:
-   - Select the file `JuanFi-FlashFile2.bin`.
+   - Select the file `AkhFi-FlashFile2.bin`.
    - Set the offset to `0x200000`.
    - Click the `Flash Nodemcu` button and wait for the flashing process to complete.
 
