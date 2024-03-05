@@ -95,12 +95,12 @@ Bergabunglah dengan grup komunitas kami yang dinamis untuk terhubung dengan peng
 
 Berikut petunjuk untuk mem-flash ESP8622 menggunakan custom pyflasher. Ikuti langkah-langkah berikut agar berhasil mem-flash modul ESP8622 dengan firmware yang diperlukan.
 
-## Step 1: Unduh File Flashing
+## Step 1: Download File Fleshing ESP8622
 
 Unduh file flashing ESP8622 yang diperlukan untuk pengaturan Anda:
 
-- [**Folder Berbasis Nirkabel ESP8622 **]([Berbasis Nirkabel.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Nirkabel.rar)) - Untuk pengaturan nirkabel.
-- [**Folder Berbasis Lan ESP8622 **]([Berbasis Lan.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Lan.rar)) - Untuk pengaturan berbasis LAN.
+- [**File Berbasis Nirkabel ESP8622 **]([Berbasis Nirkabel.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Nirkabel.rar)) - Untuk pengaturan nirkabel.
+- [**File Berbasis Lan ESP8622 **]([Berbasis Lan.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Lan.rar)) - Untuk pengaturan berbasis LAN.
 
 ## Step 2: Buka NodeMCU-PyFlasher
 
@@ -125,69 +125,63 @@ Unduh file flashing ESP8622 yang diperlukan untuk pengaturan Anda:
 
 ![Flash File 2](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-FlashFile2.PNG?raw=true)
 
-## Step 5: Completing the Flashing Process
+## Step 5: Menyelesaikan Proses Flashing
 
-After flashing both files, your ESP8622 is now ready. Restart the NodeMCU to begin the setup.
+Setelah mem-flash kedua file, ESP8622 Anda sekarang siap. Mulai ulang NodeMCU untuk memulai pengaturan.
 
-Congratulations! You've successfully flashed your ESP8622 hardware and are ready to proceed with the JuanFi Setup.
+Selamat! Anda telah berhasil mem-flash perangkat ESP8622 dan siap untuk melanjutkan dengan Pengaturan AkhFi Setup.
 
 </details>
 
 <br>
 
 
-# ESP32 Flashing Instructions
+# Petunjuk Flashing ESP32
 
-<details>
-<summary>Expand for Instructions</summary>
+Ikuti petunjuk ini untuk mem-flash perangkat keras ESP32 menggunakan esptool.exe. Proses ini akan memuat firmware yang diperlukan ke modul ESP32.
 
-Follow these instructions to flash the ESP32 hardware using `esptool.exe`. This process will load the necessary firmware onto the ESP32 module.
+## Step 1: Download File Flesing ESP32
 
-## Step 1: Download Flashing Files
+Unduh file flashing ESP32 yang diperlukan untuk pengaturan Anda:
 
-Download the required flashing files based on your setup:
+- [**File Berbasis Nirkabel ESP32 **]([Berbasis Nirkabel.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP32%20Berbasis%20Nirkabel.rar)) - Untuk pengaturan nirkabel.
+- [**File Berbasis Lan ESP32 **]([Berbasis Lan.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP32%20Berbasis%20Lan.rar)) - Untuk pengaturan berbasis LAN.
 
-- [**ESP32 Wireless Base folder**](/release/WirelessBase/ESP32/) - For wireless setup.
-- [**ESP32 Lan Base folder**](/release/LanBased/ESP32/) - For LAN-based setup.
+## Step 2: Jalankan Skrip Flashing
 
-## Step 2: Run the Flashing Script
-
-1. Double-click `start_flash.bat`.
-2. Connect your ESP32 to your PC using a USB cable.
-
+1. Klik Duakali `start_flash.bat`.
+2. Hubungkan ESP32 Anda ke PC Menggunakan Kabel DAta USB.
 ![Connect ESP32](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile1.PNG?raw=true)
 
-3. A command prompt will appear, prompting you to select an available COM port for your ESP32.
-
+3.Prompt perintah akan muncul, meminta Anda untuk memilih port COM yang tersedia untuk ESP32 Anda.
 ![Select COM Port](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile2.PNG?raw=true)
 
-## Step 3: Select COM Port
+## Step 3: Pilih Port Com
 
-1. Choose the appropriate COM port for your ESP32 (e.g., COM9).
-2. Press "Enter."
+1. Pilih port COM yang sesuai untuk ESP32 Anda (misalnya, COM9).
+2. Tekan "Enter."
 
 ![Select COM Port](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile3.PNG?raw=true)
 
-3. A connecting message will appear, indicating the tool is attempting to connect to the ESP32.
-
+3. Pesan penghubung akan muncul, menunjukkan alat tersebut mencoba terhubung ke ESP32.
 ![Connecting](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile4.PNG?raw=true)
 
-## Step 4: Initiate Flashing
+## Step 4: Mulai Flashing
 
-1. Press and hold the flash button on the ESP32 for 3-5 seconds.
-2. The flashing process will start.
+1. Tekan dan tahan tombol flash pada ESP32 selama 3-5 detik.
+2.Proses flashing akan dimulai.
 
 ![Initiate Flashing](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile5.PNG?raw=true)
 
-## Step 5: Wait for Completion
+## Step 5: Tunggu Hingga Selesai
 
-Wait for the flashing process to complete.
+Tunggu hingga proses flashing selesai.
 
-## Step 6: Finish
+## Step 6: Selesai
 
-After the flashing process is finished, you can disconnect the ESP32 from your PC. The device is now ready for the JuanFi Setup.
+Setelah mem-flash kedua file, ESP32 Anda sekarang siap. Mulai ulang NodeMCU untuk memulai pengaturan.
 
-Congratulations! You've successfully flashed your ESP32 hardware and are ready to proceed with the JuanFi Setup.
+Selamat! Anda telah berhasil mem-flash perangkat ESP32 dan siap untuk melanjutkan dengan Pengaturan AkhFi SetUp.
 
 
 </details>
