@@ -66,7 +66,7 @@ Bergabunglah dengan grup komunitas kami yang dinamis untuk terhubung dengan peng
 > # **Arsitektur** 
 
 
-![alt text](docs/JuanFi-Architecture.PNG?raw=true)
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/DIAGRAM%20WIFI%20KOIN%20AKHFI.jpg)
 
 ---
 
