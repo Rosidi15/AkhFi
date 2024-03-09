@@ -206,42 +206,42 @@ Jalankan di terminal mikrotik
 
 Atur alamat IP vendo Anda (NodeMCU) menjadi statis untuk mencegahnya mengubah alamat.
 
-![Static IP Address](/docs/JuanFI-Mikrotik-Step1.PNG)
+![Static IP Address](https://github.com/Rosidi15/AkhFi/blob/main/AkhFI-Mikrotik-Step1.PNG)
 
-Copy the mac-address and ip-address of your vendo
-and set the address-list to JuanfiVendo
+Salin alamat mac dan alamat ip vendo Anda
+dan atur daftar alamat ke AkhFiVendo
 
-![Static IP Address](/docs/JuanFi-Mikrotik-Step1.2.PNG)
+![Static IP Address](https://github.com/Rosidi15/AkhFi/blob/main/AkhFi-Mikrotik-Step1.2.jpg)
 
-## 4. Add IP Bindings Exception on Hotspot
+## 4.Tambahkan Pengecualian Pengikatan IP di Hotspot
 
-Ensure the vendo's MAC address and IP address are added to IP bindings exceptions to prevent unauthorized usage.
+Pastikan alamat MAC dan alamat IP vendo ditambahkan ke pengecualian pengikatan IP untuk mencegah penggunaan yang tidak sah.
 
-![IP Bindings Exception](/docs/JuanFi-Mikrotik-Step2.PNG)
+![IP Bindings Exception](https://github.com/Rosidi15/AkhFi/blob/main/AkhFi-Mikrotik-Step2.PNG)
 
 
-## 5. Modify vendoIpAddress in config.js
+## 5.Ubah vendoIpAddress di config.js
 
-Modify the `vendoIpAddress` in the [config.js](/mikrotik-template/assets/js/config.js) file to match your setup.
+Ubah `vendoIpAddress` di file [config.js](/mikrotik-template/assets/js/config.js) agar sesuai dengan pengaturan Anda.
 
 ![Modify vendoIpAddress](/docs/JuanFi-Mikrotik-Step5.PNG)
 
-## 6. Upload HTML Portal to Mikrotik
+## 6.Unggah Portal HTML ke Mikrotik
 
 Upload the [HTML portal](/mikrotik-template/) to your Mikrotik files. You can find different portal designs in our [Facebook Group Community](https://www.facebook.com/groups/1172413279934139).
 
-## 7. Create User for NodeMCU API Access
+## 7. Buat Pengguna untuk Akses API NodeMCU
 
-Create a user for NodeMCU API access. The default user for NodeMCU is **pisonet** with password **abc123**. You can change it as needed.
+Buat pengguna untuk akses API NodeMCU. Pengguna default untuk NodeMCU adalah **WifiKoin** dengan kata sandi **abc123**. Anda dapat mengubahnya sesuai kebutuhan.
 
-![NodeMCU API User](/docs/JuanFi-Mikrotik-Step3.PNG)
+![NodeMCU API User](https://github.com/Rosidi15/AkhFi/blob/main/AkhFi-Mikrotik-Step3.jpg)
 
 ---
 
-## **8.) Please add this script in the hotspot user profile on login event** (credits to kristoff for adding sales)
+## **8.) Silakan tambahkan skrip ini di profil pengguna hotspot pada acara login** (kredit kepada kristoff untuk menambahkan penjualan)
 
-Execute on mikrotik terminal
-Put on the on login script (with telegram support) please change accordingly with your hotspot folder(hex or haplite)
+Jalankan di terminal mikrotik
+Pasang skrip login (dengan dukungan telegram) silakan ubah sesuai dengan folder hotspot Anda (hex atau haplite)
 
 ```bash
 ### enable telegram notification, change from 0 to 1 if you want to enable telegram
@@ -385,32 +385,21 @@ Put on the on logout script
 }
 ```
 
-![alt text](/docs/JuanFi-Mikrotik-Step4.PNG?raw=true)
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/Secrip%20login.png)
 
-> ## **Miscellaneous Scripts**
-
-You can create a scheduler to restart (System - > Scheduler) add your desired schedule and put this script or modify the existing template scripts below in your desired settings
-
-- **38vz2rb6nk** - this is the API KEY you generate in admin panel
-- **10.10.10.251** - this is your ESP IP Address
-
-Replace those value with your own setting
-
-### **Restart vendo scheduler**
-
-Sample Script that run at 3am:
-
-```bash
-  /system scheduler add interval=1d name="Restart Vendo" on-event="/tool fetch http-method=post http-header-field=\"X-TOKEN: 38vz2rb6nk\" url=\"http://10.10.10.251/admin/api/restartSystem\"" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=Sep/28/2021 start-time=03:00:00;
-```
 
 # **Mikrotik Hotspot Portal**
+sebelum Pembelian Lisensi
 
-![alt text](/docs/Mikrotik-hotspot.PNG?raw=true)
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/Tampilan%20Panel%20Admin.jpg)
 
-# **Admin Panel Dashboard**
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/Pembelian%20Lisensi.jpg)
 
-![alt text](/docs/JuanFi-Step05.PNG?raw=true)
+Setelah Pembelian Lisensi
+
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/Pembelian%20Lisensi-1.jpg)
+
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/Tampilan%20Admin%20setelah%20di%20seting.jpg)
 
 
 ## License
