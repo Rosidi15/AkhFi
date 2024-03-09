@@ -45,13 +45,13 @@ Bergabunglah dengan grup komunitas kami yang dinamis untuk terhubung dengan peng
 
 ## Bahan-Bahan Yang Dibutuhkan
 
-1.) NodeMCU(ESP8266) untuk nirkabel/lan atau NodeMCU(ESP32) untuk nirkabel/lan
+1.) NodeMCU(ESP32) untuk nirkabel/lan
 
-2.) Koin Aseptor
+2.) Koin Aceptor.
 
 3.) Mikrotik
 
-4.) Akses Point
+4.) Akses Point.
 
 5.) PCB Kostum Node MCU (Opsional untuk nirkabel)
 
@@ -127,15 +127,15 @@ Selamat! Anda telah berhasil mem-flash perangkat ESP32 dan siap untuk melanjutka
 
 ## 1. Hubungkan ke AkhFi Setup
 
-### Untuk Yang Berbasis Nirkabel Esp32/Esp8622
+### Untuk Yang Berbasis Nirkabel Esp32
 
 1. Cari SSID "AkhFi Setup" di perangkat Anda.
 2. Hubungkan ke SSID
 3. Akses panel admin di browser Anda di http://172.217.28.1/login .
 
-![Wireless Setup](/docs/JuanFi-Step01.PNG)
+![Wireless Setup](https://github.com/Rosidi15/AkhFi/blob/main/Akhfi-SetUp.jpg)
 
-### Untuk Berbasis Lan Esp32/Esp8622
+### Untuk Berbasis Lan Esp32
 
 1. Hubungkan Portal Anda ke port ethernet PC/Laptop Anda.
 2. Tetapkan alamat IP PC/Laptop Anda sebagai statis ke 172.217.28.10 :
@@ -152,7 +152,7 @@ Gunakan username&pasword Bawaan dibawah ini:
 - Username: admin
 - Password: admin
 
-![Admin Panel Login](/docs/JuanFi-Step02.PNG)
+![Admin Panel Login](https://github.com/Rosidi15/AkhFi/blob/main/Masuk%20ke%20Panel%20Admin.jpg)
 
 ## 8. Konfigurasi Sistem
 
