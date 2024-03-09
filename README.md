@@ -157,18 +157,25 @@ Gunakan username&pasword Bawaan dibawah ini:
 
 ![Admin Panel Login](https://github.com/Rosidi15/AkhFi/blob/main/Masuk%20ke%20Panel%20Admin.jpg)
 
-## 8. Konfigurasi Sistem
+## 3. Konfigurasi Sistem
 
-Isi Vendo Name dengan Nama Portal Anda Contoh :"Portal Sabrina", Kemudian Scan Nama SSID Wifi Anda,pasword dikosongkan, Kemudian Mode Pilih DHCP / Statik, Kemudian isi Ip mikrotik Sesuai dengan Ip Mikrotik Anda begitu juga dengan username dan paswordnya, kemudian pilih simpan. maka NodemCusudah terhubung dengan mikrotik,, lanjutkan ke pengaturan berikutnya.
+Isi Vendo Name dengan Nama Pedagang Anda Contoh :"Ahmad Abdallah", Kemudian Scan Nama SSID Wifi Anda,pasword dikosongkan.
+![Configure System](https://github.com/Rosidi15/AkhFi/blob/main/Pengaturan%20Vendo-1.jpg)
 
-> **Note:** Change the password of the **operator** account to prevent unauthorized access to the vendo.
+Kemudian isi Ip mikrotik Sesuai dengan Ip Mikrotik Anda begitu juga dengan username dan paswordnya.
+![Configure System](https://github.com/Rosidi15/AkhFi/blob/main/Pengaturan%20Vendo-2.jpg)
+![Configure System](https://github.com/Rosidi15/AkhFi/blob/main/Pengaturan%20Vendo-3.jpg)
+![Configure System](https://github.com/Rosidi15/AkhFi/blob/main/Pengaturan%20Vendo-4.jpg)
+![Configure System](https://github.com/Rosidi15/AkhFi/blob/main/Pengaturan%20Vendo-5.jpg)
 
-![Configure System](/docs/JuanFi-Step03.PNG)
+Jika Semuanya Sudah Sesuai kemudian pilih simpan. maka NodemCusudah terhubung dengan mikrotik,, lanjutkan ke pengaturan berikutnya.
 
 ### Konfigurasi Daftar Harga
+(NB: Langkah ini di Lewatkan Dulu karena Langkah ini tidak akan bisa di lanjutkan sebelum Pengaturan Mikrotik)
 
 
-![Configure Promo Rates](/docs/JuanFi-Step04.PNG)
+![Configure Promo Harga](https://github.com/Rosidi15/AkhFi/blob/main/Pengaturan%20Harga.jpg)
+![Configure Promo Harga](https://github.com/Rosidi15/AkhFi/blob/main/Pengaturan%20Harga.2.jpg)
 
 > # Pengaturan Mikrotik
 
