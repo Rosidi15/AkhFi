@@ -72,11 +72,11 @@ Bergabunglah dengan grup komunitas kami yang dinamis untuk terhubung dengan peng
 
 ## Diagram ESP32 Berbasis LAN
 
-![alt text](/docs/esp32-lan-diagram.jpg)
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/DIAGRAM%20ESP32%20LAN.jpg)
 
 ## Diagram ESP32 Berbasis Wireless
 
-![alt text](/docs/esp32-wireless-diagram.jpg)
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/DIAGRAM%20ESP32%20WERLES.jpg)
 
 
 <br>
