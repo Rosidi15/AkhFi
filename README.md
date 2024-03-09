@@ -66,75 +66,22 @@ Bergabunglah dengan grup komunitas kami yang dinamis untuk terhubung dengan peng
 > # **Arsitektur** 
 
 
-![alt text](https://github.com/Rosidi15/AkhFi/blob/main/DIAGRAM%20WIFI%20KOIN%20AKHFI.jpg)
+![alt text](https://github.com/Rosidi15/AkhFi/blob/main/Arsitektur%20Wifi%20Koin%20Akhfi.jpg)
 
 ---
 
-## ESP32 LAN Based Connection Diagram
+## Diagram ESP32 Berbasis LAN
 
 ![alt text](/docs/esp32-lan-diagram.jpg)
 
-## ESP32 Wireless Based Connection Diagram
+## Diagram ESP32 Berbasis Wireless
 
 ![alt text](/docs/esp32-wireless-diagram.jpg)
-
-## ESP8622 Wireless Based Connection Diagram
-
-![alt text](/docs/esp8622-wireles-diagram.jpg)
-
-## ESP8622 LAN Based Connection Diagram
-
-![alt text](/docs/esp8622-lan-diagram.jpg)
 
 
 <br>
 
 > # **Mem-flash perangkat keras**
-
-# Cara flash ESP8622
-
-Berikut petunjuk untuk mem-flash ESP8622 menggunakan custom pyflasher. Ikuti langkah-langkah berikut agar berhasil mem-flash modul ESP8622 dengan firmware yang diperlukan.
-
-## Step 1: Download File Fleshing ESP8622
-
-Unduh file flashing ESP8622 yang diperlukan untuk pengaturan Anda:
-
-- [**File Berbasis Nirkabel ESP8622 **]([Berbasis Nirkabel.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Nirkabel.rar)) - Untuk pengaturan nirkabel.
-- [**File Berbasis Lan ESP8622 **]([Berbasis Lan.rar](https://github.com/Rosidi15/AkhFi/blob/main/ESP8622%20Berbasis%20Lan.rar)) - Untuk pengaturan berbasis LAN.
-
-## Step 2: Buka NodeMCU-PyFlasher
-
-1. Hubungkan ESP8622 Anda ke PC Anda.
-2. Buka NodeMCU-PyFlasher.exe aplikasi.
-
-## Step 3: Mem-flash AkhFi-FlashFile1.bin
-
-1. Di antarmuka PyFlasher:
-   - Pilih file `AkhFi-FlashFile1.bin`.
-   - Pastikan offset diatur ke `0x000000`.
-   - Klik `Flash Nodemcu` tombol tersebut dan tunggu hingga proses flashing selesai.
-
-![Flash File 1](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-FlashFile1.PNG?raw=true)
-
-## Step 4: Mem-Flash AkhFi-FlashFile2.bin
-
-1. Di antarmuka PyFlasher:
-   - Pilih File AkhFi-FlashFile2.bin`.
-   - Pastikanoffset diatur ke `0x200000`.
-   - Klik `Flash Nodemcu` tombol tersebut dan tunggu hingga proses flashing selesai.
-
-![Flash File 2](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-FlashFile2.PNG?raw=true)
-
-## Step 5: Menyelesaikan Proses Flashing
-
-Setelah mem-flash kedua file, ESP8622 Anda sekarang siap. Mulai ulang NodeMCU untuk memulai pengaturan.
-
-Selamat! Anda telah berhasil mem-flash perangkat ESP8622 dan siap untuk melanjutkan dengan Pengaturan AkhFi Setup.
-
-</details>
-
-<br>
-
 
 # Petunjuk Flashing ESP32
 
@@ -149,31 +96,19 @@ Unduh file flashing ESP32 yang diperlukan untuk pengaturan Anda:
 
 ## Step 2: Jalankan Skrip Flashing
 
-1. Klik Duakali `start_flash.bat`.
-2. Hubungkan ESP32 Anda ke PC Menggunakan Kabel DAta USB.
-![Connect ESP32](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile1.PNG?raw=true)
-
-3.Prompt perintah akan muncul, meminta Anda untuk memilih port COM yang tersedia untuk ESP32 Anda.
-![Select COM Port](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile2.PNG?raw=true)
+1. Hubungkan ESP32 Anda ke PC Menggunakan Kabel DAta USB.
+2. Klik Duakali `start_flash.bat`.
+![Connect ESP32](https://github.com/Rosidi15/AkhFi/blob/CARA-FLASH/Flash-ESP32-Langkah-1.jpg)
 
 ## Step 3: Pilih Port Com
 
-1. Pilih port COM yang sesuai untuk ESP32 Anda (misalnya, COM9).
+1. Pilih port COM yang sesuai untuk ESP32 Anda (misalnya, COM7).
 2. Tekan "Enter."
 
-![Select COM Port](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile3.PNG?raw=true)
+![Select COM Port](https://github.com/Rosidi15/AkhFi/blob/CARA-FLASH/Flash-ESP32-Langkah-2.jpg)
 
-3. Pesan penghubung akan muncul, menunjukkan alat tersebut mencoba terhubung ke ESP32.
-![Connecting](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile4.PNG?raw=true)
 
-## Step 4: Mulai Flash
-
-1. Tekan dan tahan tombol flash pada ESP32 selama 3-5 detik.
-2.Proses flashing akan dimulai.
-
-![Initiate Flashing](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Lan-FlashFile5.PNG?raw=true)
-
-## Step 5: Tunggu Hingga Selesai
+## Step 4: Tunggu Hingga Selesai
 
 Tunggu hingga proses flashing selesai.
 
