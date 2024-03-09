@@ -228,7 +228,7 @@ Ubah `vendoIpAddress` di file [config.js](/mikrotik-template/assets/js/config.js
 
 ## 6.Unggah Portal HTML ke Mikrotik
 
-Upload the [HTML portal](/mikrotik-template/) to your Mikrotik files. You can find different portal designs in our [Facebook Group Community](https://www.facebook.com/groups/1172413279934139).
+Upload the [HTML portal](/mikrotik-template/) to your Mikrotik files. You can find different portal designs in our [Facebook Group Community](https://www.facebook.com/groups/943413657180146).
 
 ## 7. Buat Pengguna untuk Akses API NodeMCU
 
