@@ -103,7 +103,7 @@ Unduh file flashing ESP32 yang diperlukan untuk pengaturan Anda:
 ## Step 3: Pilih Port Com
 
 1. Pilih port COM yang sesuai untuk ESP32 Anda (misalnya, COM7).
-2. Tekan "Enter."
+2. Tekan "Enteeer."
 
 ![Select COM Port](https://github.com/Rosidi15/AkhFi/blob/CARA-FLASH/Flash-ESP32-Langkah-2.jpg)
 
@@ -112,8 +112,11 @@ Unduh file flashing ESP32 yang diperlukan untuk pengaturan Anda:
 
 Tunggu hingga proses flashing selesai.
 
-## Step 6: Selesai
+## Step 5: Selesai
 
+![Selesai](https://github.com/Rosidi15/AkhFi/blob/CARA-FLASH/Flash-ESP32-Langkah-3.jpg)
+
+Tekan Tombol apa saja untuk keluar dari CMD
 Setelah proses flashing selesai, Anda dapat memutuskan sambungan ESP32 dari PC Anda. Perangkat sekarang siap untuk Pengaturan.
 
 Selamat! Anda telah berhasil mem-flash perangkat ESP32 dan siap untuk melanjutkan dengan Pengaturan AkhFi SetUp.
