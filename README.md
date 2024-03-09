@@ -179,13 +179,13 @@ Jika Semuanya Sudah Sesuai kemudian pilih simpan. maka NodemCusudah terhubung de
 
 > # Pengaturan Mikrotik
 
-## 1. Setup Mikrotik Hotspot
+## 1. SetUp Mikrotik Hotspot
 
-Set up the Mikrotik hotspot server according to your configuration. You can find tutorials online for setting up a hotspot server in Mikrotik.
+Konfigurasikan server hotspot Mikrotik sesuai konfigurasi Anda. Mikrotik anda harus sudah di seting terlebih dahulu.
 
-## 2. Add this initial script in your terminal
+## 2. Tambahkan skrip awal ini di terminal Anda
 
-Execute on mikrotik terminal
+Jalankan di terminal mikrotik
 
 ```bash
 /system scheduler add interval=1d name="Reset Daily Income" on-event="/system script set source=\"0\" todayincome " policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=Sep/28/2021 start-time=00:00:00;
@@ -202,9 +202,9 @@ Execute on mikrotik terminal
 /ip firewall filter add action=accept chain=input place-before=0 comment=AkhfiVendo src-address-list=AkhfiPortal
 ```
 
-## 3. Make NodeMCU IP Address Static
+## 3. Jadikan Alamat IP NodeMCU Statis
 
-Set the IP address of your vendo (NodeMCU) to static to prevent it from changing addresses.
+Atur alamat IP vendo Anda (NodeMCU) menjadi statis untuk mencegahnya mengubah alamat.
 
 ![Static IP Address](/docs/JuanFI-Mikrotik-Step1.PNG)
 
