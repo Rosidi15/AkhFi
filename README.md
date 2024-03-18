@@ -220,17 +220,11 @@ Pastikan alamat MAC dan alamat IP vendo ditambahkan ke pengecualian pengikatan I
 ![IP Bindings Exception](https://github.com/Rosidi15/AkhFi/blob/main/AkhFi-Mikrotik-Step2.PNG)
 
 
-## 5.Ubah vendoIpAddress di config.js
+## 5.Unggah Portal HTML ke Mikrotik
 
-Ubah `vendoIpAddress` di file [config.js](/mikrotik-template/assets/js/config.js) agar sesuai dengan pengaturan Anda.
+Upload the [HTML portal](https://github.com/Rosidi15/AkhFi/blob/main/login%20page%20wifi%20koin%20akhfi.rar) to your Mikrotik files. You can find different portal designs in our [Facebook Group Community](https://www.facebook.com/groups/943413657180146).
 
-![Modify vendoIpAddress](/docs/JuanFi-Mikrotik-Step5.PNG)
-
-## 6.Unggah Portal HTML ke Mikrotik
-
-Upload the [HTML portal](/mikrotik-template/) to your Mikrotik files. You can find different portal designs in our [Facebook Group Community](https://www.facebook.com/groups/943413657180146).
-
-## 7. Buat Pengguna untuk Akses API NodeMCU
+## 6. Buat Pengguna untuk Akses API NodeMCU
 
 Buat pengguna untuk akses API NodeMCU. Pengguna default untuk NodeMCU adalah **WifiKoin** dengan kata sandi **abc123**. Anda dapat mengubahnya sesuai kebutuhan.
 
@@ -238,7 +232,7 @@ Buat pengguna untuk akses API NodeMCU. Pengguna default untuk NodeMCU adalah **W
 
 ---
 
-## **8.) Silakan tambahkan skrip ini di profil pengguna hotspot pada acara login** (kredit kepada kristoff untuk menambahkan penjualan)
+## **7.) Silakan tambahkan skrip ini di profil pengguna hotspot pada acara login** (kredit kepada kristoff untuk menambahkan penjualan)
 
 Jalankan di terminal mikrotik
 Pasang skrip login (dengan dukungan telegram) silakan ubah sesuai dengan folder hotspot Anda (hex atau haplite)
